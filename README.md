@@ -28,17 +28,6 @@ We aimed to help educators turn long, unstructured video lectures into clear, mo
 
 ---
 
-## 📁 **Folder Structure**
-    
-
-AI-course-generator/
-├── sensai-ai/            # Python backend pipeline
-├── sensai-frontend/      # Frontend web UI
-├── .gitignore
-├── README.md
-
----
-
 ## ✨ **What Makes It Special**
 
 * 🔍 Multimodal: Fuses audio + visual context for better course quality
