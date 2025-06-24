@@ -2,69 +2,65 @@
 
 ⏱️ **30 Hours. Zero Sleep. Just Code, Coffee & Curiosity.**
 
-This project was built by **Team CODE CRAFTERS** during **SensAI'25**, a 30-hour hackathon hosted by HyperVerge and our college. Out of 66 teams, 36 were shortlisted — and we were proud to tackle a challenging real-world problem for course creators.
+This project was built by **Team CODE CRAFTERS** during **SensAI'25**, a 30-hour hackathon hosted by HyperVerge and our college. Out of 66 teams, 36 were shortlisted — and we proudly tackled a challenging real-world problem for course creators.
 
 ---
 
 ## 🧩 **Problem Statement**
 
-> **"AI Assistant for Course Creators — Automatically Generate Courses from Videos."**
+**"AI Assistant for Course Creators — Automatically Generate Courses from Videos."**
 
-Our goal: convert lengthy educational videos into structured, engaging online courses — complete with:
-- 📜 Transcripts
-- 📚 Modules & Lessons
-- ✅ Quizzes
+We aimed to help educators turn long, unstructured video lectures into clear, modular online courses — with:
+
+* 📜 Accurate transcripts
+* 📚 Structured modules & lessons
+* ✅ Auto-generated quizzes
 
 ---
 
 ## 🚀 **What We Built**
 
-✅ Upload `.mp4` videos or YouTube links  
-✅ Audio transcription pipeline using **OpenAI Whisper** (tuned for best speed-quality)  
-✅ NLP preprocessing to extract meaningful content  
-✅ Auto-create course structure: **Course → Modules → Lessons → Quizzes**
-
----
-
-## 🖼️ **Going Beyond Audio: Visual Processing**
-
-Videos show more than they say. We:
-- Implemented **Scene Segmentation** to extract keyframes  
-- Analyzed keyframes with **GPT-4 Turbo Vision** to summarize slides, titles, and code snippets  
-- Combined audio + visual summaries into rich, multimodal course content
-
-Tested with real videos — our system correctly detected keyframes and generated concise summaries.
-
----
-
-## ⚡ **Integrated into SensAI Platform**
-
-All pipelines were plugged into the SensAI platform for a seamless experience.
-
-Though we didn’t advance to the final rounds, we:
-- Debugged backend glitches
-- Swapped models on the fly
-- Pulled an all-nighter together!
-
-A truly rewarding hackathon experience for the whole team.
-
----
-
-## 🙌 **Credits**
-
-**Team CODE CRAFTERS**  
-- Varun Shankar G
-- Sneha S
-
-Big thanks to HyperVerge, our college, placement faculty, and student coordinators for the opportunity!
+✅ Upload: Accepts .mp4 videos or YouTube URLs
+✅ Audio Transcription: Uses OpenAI Whisper Medium for balanced speed and accuracy
+✅ NLP Preprocessing: Cleans, splits, and summarizes raw transcript text into lessons
+✅ Course Structuring: Automatically organizes content into Course → Modules → Lessons → Quizzes JSON
+✅ Visual Analysis: Extracts slides, titles, and code snippets with Scene Segmentation + GPT-4 Turbo Vision
 
 ---
 
 ## 📁 **Folder Structure**
 
-```bash
 AI-course-generator/
-├── sensai-ai.zip # Backend pipeline
-├── sensai-frontend.zip # Frontend UI
+├── sensai-ai/            # Python backend pipeline
+├── sensai-frontend/      # Frontend web UI
 ├── .gitignore
 ├── README.md
+
+---
+
+## ✨ **What Makes It Special**
+
+* 🔍 Multimodal: Fuses audio + visual context for better course quality
+* ⚡ Fully Automated: Minimal manual curation needed
+* 🧠 AI-First: Uses state-of-the-art Whisper & GPT-4 Vision together
+* 🏗️ Hackathon Prototype: Clean starting point for a real SaaS product for educators
+
+---
+
+## 📈 **Future Improvements**
+
+* ✅ Better scene detection for highly dynamic videos
+* ✅ Fine-tuning GPT prompts for more consistent lesson structure
+* ✅ Export to SCORM, PDF, or LMS-compatible formats
+* ✅ Frontend for user edits and manual corrections
+
+---
+
+## 🙌 **Credits**
+
+Team CODE CRAFTERS
+
+* Varun Shankar G
+* Sneha S
+
+Big thanks to HyperVerge, our college, placement faculty, and student coordinators for the opportunity!
