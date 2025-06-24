@@ -53,8 +53,8 @@ A truly rewarding hackathon experience for the whole team.
 ## 🙌 **Credits**
 
 **Team CODE CRAFTERS**  
-- Hemadiksitha K M  
 - Varun Shankar G
+- Sneha S
 
 Big thanks to HyperVerge, our college, placement faculty, and student coordinators for the opportunity!
 
@@ -62,6 +62,7 @@ Big thanks to HyperVerge, our college, placement faculty, and student coordinato
 
 ## 📁 **Folder Structure**
 
+```bash
 AI-course-generator/
 ├── sensai-ai.zip # Backend pipeline
 ├── sensai-frontend.zip # Frontend UI
