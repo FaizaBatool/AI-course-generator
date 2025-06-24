@@ -29,7 +29,8 @@ We aimed to help educators turn long, unstructured video lectures into clear, mo
 ---
 
 ## 📁 **Folder Structure**
-```bash
+    
+
 AI-course-generator/
 ├── sensai-ai/            # Python backend pipeline
 ├── sensai-frontend/      # Frontend web UI
