@@ -20,20 +20,20 @@ We aimed to help educators turn long, unstructured video lectures into clear, mo
 
 ## 🚀 **What We Built**
 
-* Upload: Accepts .mp4 videos or YouTube URLs
-* Audio Transcription: Uses OpenAI Whisper Medium for balanced speed and accuracy
-* NLP Preprocessing: Cleans, splits, and summarizes raw transcript text into lessons
-* Course Structuring: Automatically organizes content into Course → Modules → Lessons → Quizzes JSON
-* Visual Analysis: Extracts slides, titles, and code snippets with Scene Segmentation + GPT-4 Turbo Vision
+* **Upload:** Accepts .mp4 videos or YouTube URLs
+* **Audio Transcription:** Uses OpenAI Whisper Medium for balanced speed and accuracy
+* **NLP Preprocessing:** Cleans, splits, and summarizes raw transcript text into lessons
+* **Course Structuring:** Automatically organizes content into Course → Modules → Lessons → Quizzes JSON
+* **Visual Analysis:** Extracts slides, titles, and code snippets with Scene Segmentation + GPT-4 Turbo Vision
 
 ---
 
 ## ✨ **What Makes It Special**
 
-* 🔍 Multimodal: Fuses audio + visual context for better course quality
-* ⚡ Fully Automated: Minimal manual curation needed
-* 🧠 AI-First: Uses state-of-the-art Whisper & GPT-4 Vision together
-* 🏗️ Hackathon Prototype: Clean starting point for a real SaaS product for educators
+* 🔍 **Multimodal:** Fuses audio + visual context for better course quality
+* ⚡ **Fully Automated:** Minimal manual curation needed
+* 🧠 **AI-First:** Uses state-of-the-art Whisper & GPT-4 Vision together
+* 🏗️ **Hackathon Prototype:** Clean starting point for a real SaaS product for educators
 
 ---
 
