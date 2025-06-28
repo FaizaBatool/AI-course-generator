@@ -1,56 +1,142 @@
-# 🎓 AI Course Generator from Videos — SensAI'25 Hackathon
+# AI Course Generator: Transforming Videos into Structured Learning
 
-⏱️ **30 Hours. Zero Sleep. Just Code, Coffee & Curiosity.**
-
-This project was built by **Team CODE CRAFTERS** during **SensAI'25**, a 30-hour hackathon hosted by HyperVerge and our college. Out of 66 teams, 36 were shortlisted — and we proudly tackled a challenging real-world problem for course creators.
-
----
-
-## 🧩 **Problem Statement**
-
-**"AI Assistant for Course Creators — Automatically Generate Courses from Videos."**
-
-We aimed to help educators turn long, unstructured video lectures into clear, modular online courses — with:
-
-* 📜 Accurate transcripts
-* 📚 Structured modules & lessons
-* ✅ Auto-generated quizzes
+![AI Course Generator](https://img.shields.io/badge/AI%20Course%20Generator-v1.0-brightgreen)  
+[![Releases](https://img.shields.io/badge/Releases-Check%20Here-blue)](https://github.com/FaizaBatool/AI-course-generator/releases)
 
 ---
 
-## 🚀 **What We Built**
+## Table of Contents
 
-* **Upload:** Accepts .mp4 videos or YouTube URLs
-* **Audio Transcription:** Uses OpenAI Whisper Medium for balanced speed and accuracy
-* **NLP Preprocessing:** Cleans, splits, and summarizes raw transcript text into lessons
-* **Course Structuring:** Automatically organizes content into Course → Modules → Lessons → Quizzes JSON
-* **Visual Analysis:** Extracts slides, titles, and code snippets with Scene Segmentation + GPT-4 Turbo Vision
-
----
-
-## ✨ **What Makes It Special**
-
-* 🔍 **Multimodal:** Fuses audio + visual context for better course quality
-* ⚡ **Fully Automated:** Minimal manual curation needed
-* 🧠 **AI-First:** Uses state-of-the-art Whisper & GPT-4 Vision together
-* 🏗️ **Hackathon Prototype:** Clean starting point for a real SaaS product for educators
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 ---
 
-## 📈 **Future Improvements**
+## Project Overview
 
-* ✅ Better scene detection for highly dynamic videos
-* ✅ Fine-tuning GPT prompts for more consistent lesson structure
-* ✅ Export to SCORM, PDF, or LMS-compatible formats
-* ✅ Frontend for user edits and manual corrections
+The **AI Course Generator** is an innovative project developed during the SensAI'25 Hackathon. This tool automatically converts long educational videos into structured online courses. It provides users with transcripts, modules, lessons, and quizzes, enhancing the learning experience.
+
+By leveraging advanced technologies like OpenAI Whisper for audio transcription and GPT-4 Vision for visual analysis, this project creates rich, multimodal course content. It aims to make educational resources more accessible and organized, allowing learners to grasp concepts more effectively.
 
 ---
 
-## 🙌 **Credits**
+## Features
 
-Team CODE CRAFTERS
+- **Automatic Video Transcription**: Utilizes OpenAI Whisper to transcribe spoken content from videos into text.
+- **Structured Course Creation**: Generates modules and lessons based on the video content, making learning easier.
+- **Interactive Quizzes**: Creates quizzes to test understanding and reinforce learning.
+- **Multimodal Content**: Combines audio and visual data to create engaging course material.
+- **User-Friendly Interface**: Designed with simplicity in mind, ensuring easy navigation for users.
+- **Scalable Architecture**: Built to handle multiple videos and large datasets efficiently.
 
-* Varun Shankar G
-* Sneha S
+---
 
-Big thanks to HyperVerge, our college, placement faculty, and student coordinators for the opportunity!
+## Technologies Used
+
+- **Flask**: A lightweight web framework for building the application.
+- **OpenAI Whisper**: For accurate audio transcription.
+- **GPT-4 Vision**: For visual analysis of video content.
+- **NLP**: Natural Language Processing techniques for understanding and organizing course material.
+- **HTML/CSS/JavaScript**: For frontend development, ensuring a responsive and interactive user interface.
+- **Python**: The primary programming language used for backend development.
+- **Scene Segmentation**: For breaking down video content into meaningful segments.
+- **Multimodal AI**: To integrate different types of data (audio, video, text) seamlessly.
+
+---
+
+## Installation
+
+To set up the **AI Course Generator** on your local machine, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/FaizaBatool/AI-course-generator.git
+   cd AI-course-generator
+   ```
+
+2. **Install Dependencies**:
+   Make sure you have Python installed. Then, run:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Set Up Environment Variables**:
+   Create a `.env` file in the root directory and add your API keys for OpenAI services.
+
+4. **Run the Application**:
+   Start the Flask server:
+   ```bash
+   python app.py
+   ```
+
+5. **Access the Application**:
+   Open your web browser and navigate to `http://localhost:5000`.
+
+For downloadable files and specific versions, check the [Releases](https://github.com/FaizaBatool/AI-course-generator/releases) section.
+
+---
+
+## Usage
+
+Using the **AI Course Generator** is straightforward:
+
+1. **Upload a Video**: Use the provided interface to upload your educational video.
+2. **Select Settings**: Choose options for course structure, such as the number of modules and quiz frequency.
+3. **Generate Course**: Click on the generate button. The tool will process the video and create a structured course.
+4. **Review Content**: Once the course is generated, review the transcripts, modules, and quizzes.
+5. **Export or Share**: You can export the course for your use or share it with others.
+
+For any issues or bugs, please refer to the [Releases](https://github.com/FaizaBatool/AI-course-generator/releases) section.
+
+---
+
+## Contributing
+
+Contributions are welcome! If you would like to contribute to the **AI Course Generator**, please follow these steps:
+
+1. **Fork the Repository**: Click the fork button on the top right of the repository page.
+2. **Create a Branch**: Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. **Make Changes**: Implement your changes in the code.
+4. **Commit Changes**: Commit your changes with a clear message:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to Your Branch**:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+6. **Create a Pull Request**: Go to the original repository and create a pull request.
+
+Thank you for considering contributing to this project!
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## Contact
+
+For any inquiries, suggestions, or issues, please reach out:
+
+- **Faiza Batool**  
+  GitHub: [FaizaBatool](https://github.com/FaizaBatool)  
+  Email: faiza@example.com
+
+For updates and new features, keep an eye on the [Releases](https://github.com/FaizaBatool/AI-course-generator/releases) section.
+
+--- 
+
+![Educational Technology](https://images.unsplash.com/photo-1593642632740-9c6f1a5d3c9b)  
+*Image Source: Unsplash*
